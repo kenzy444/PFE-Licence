@@ -1,0 +1,172 @@
+body {
+	display: flex;
+	justify-content: center;
+	/* background-color: #333333; */
+	background-color: #eee;
+}
+
+.container {
+	width: 500px;
+	height: 600px;
+	background-color: white;
+	border-radius: 25px;
+	margin-top: 20px;
+	position: relative;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.pic {
+	width: 80%;
+	height: 200px;
+	margin-left: 130px;
+	position: absolute;
+}
+form {
+	margin-top: 280px;
+	margin-left: 50px;
+}
+input {
+	outline: none;
+	border: none;
+	
+}
+
+textarea {
+	outline: none;
+	border: none;
+
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.login100-form {
+	width: 290px;
+}
+
+.login100-form-title {
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 50px;
+	color: rgb(44, 43, 43);
+	line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding-bottom: 50px;
+}
+
+/*---------------------------------------------*/
+.wrap-input100 {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	margin-bottom: 10px;
+}
+
+.input100 {
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+
+	display: block;
+	width: 100%;
+	background: #e6e6e6;
+	height: 50px;
+	border-radius: 25px;
+	padding: 0 30px 0 68px;
+}
+
+/*------------------------------------------------------------------
+[ Focus ]*/
+.focus-input100 {
+	display: block;
+	position: absolute;
+	border-radius: 25px;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	width: 380px;
+	height: 100%;
+	box-shadow: 0px 0px 0px 0px;
+	/* color: rgba(87, 184, 70, 0.8); */
+	color: #0052a2;
+}
+
+.input100:focus
+{
+	box-shadow: 2px 2px 2px 2px #0052a2 ;
+}
+
+
+
+
+
+.symbol-input100 {
+	font-size: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	border-radius: 25px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 35px;
+	pointer-events: none;
+	color: #666666;
+
+}
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+	width: 100%;
+     
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.login100-form-btn {
+
+	font-size: 15px;
+	line-height: 1.5;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 100%;
+	height: 50px;
+	margin-left: 100px;
+	border-radius: 25px;
+	background: #57b846;
+	background-color: #0052a2;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 25px;
+}
+span
+{
+	font-family:'Montserrat', sans-serif ;
+}
+
+.login100-form-btn:hover {
+	background: #333333;
+}
+.input100:focus{
+      border-color: #00cb82;
+   } 
